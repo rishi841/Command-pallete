@@ -121,8 +121,9 @@ input.addEventListener("input", function () {
   }
 });
 document.getElementById("openPaletteBtn").addEventListener("click", () => {
-  openPalette(); // yeh wahi function jo Ctrl+K pe run hota tha
+  openPalette();
 });
+
 
 
 
