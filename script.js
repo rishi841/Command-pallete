@@ -120,6 +120,11 @@ input.addEventListener("input", function () {
     suggestionsBox.style.display = "none";
   }
 });
+document.getElementById("openPaletteBtn").addEventListener("click", () => {
+  openPalette(); // yeh wahi function jo Ctrl+K pe run hota tha
+});
+
+
 
 
 
